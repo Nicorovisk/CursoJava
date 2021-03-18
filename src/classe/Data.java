@@ -6,4 +6,10 @@ public class Data {
     int mes;
     int ano;
 
+    String obterDataFormatada(){
+
+        String dataFormatada = (dia+"/"+mes+"/"+ano);
+
+        return dataFormatada;
+    }
 }
